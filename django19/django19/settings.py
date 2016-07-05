@@ -1,4 +1,4 @@
-# Django settings for django15 project.
+# Django settings for django19 project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -98,10 +98,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'django15.urls'
+ROOT_URLCONF = 'django19.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'django15.wsgi.application'
+WSGI_APPLICATION = 'django19.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
