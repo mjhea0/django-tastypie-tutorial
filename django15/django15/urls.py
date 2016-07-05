@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from api import WhateverResource
+from .api import WhateverResource
 
 whatever_resource = WhateverResource()
 admin.autodiscover()
